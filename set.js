@@ -9,11 +9,11 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
     : process.env.DATABASE_URL;
 module.exports = { session: process.env.SESSION_ID || 'FLASH-MD-WA-BOT;;;=>',
     PREFIXE: process.env.PREFIX || "+",
-    OWNER_NAME: process.env.OWNER_NAME || "France King",
-    NUMERO_OWNER : process.env.OWNER_NUMBER || "254757835036", 
+    OWNER_NAME: process.env.OWNER_NAME || "badboy victor",
+    NUMERO_OWNER : process.env.OWNER_NUMBER || "2347062886232", 
              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
-AUTOREAD_MESSAGES: process.env.AUTO_READ_MESSAGES || "yes",
+AUTOREAD_MESSAGES: process.env.AUTO_READ_MESSAGES || "no",
 CHATBOT: process.env.CHAT_BOT || "yes",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
     BOT : process.env.BOT_NAME || 'FLASH-MD',
